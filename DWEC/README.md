@@ -1,0 +1,1 @@
+Estructura de carpetas y división para la asignatura.
