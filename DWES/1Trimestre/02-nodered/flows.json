@@ -1,0 +1,21 @@
+[
+    {
+        "id": "224faaa3ca9547c8",
+        "type": "function",
+        "z": "48c91fed61d85dda",
+        "name": "Machine",
+        "func": "msg.machine = Math.floor(Math.random()*3);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 180,
+        "wires": [
+            [
+                "99535d4d358b57d7"
+            ]
+        ]
+    }
+]

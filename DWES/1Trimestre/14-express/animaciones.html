@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+		<meta charset="utf-8">
+        
+<style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background:red;   
+        }
+
+    .a{
+        animation: anim1 50ms infinite;
+    }
+    .b{
+        animation: anim2 2s infinite;
+    }
+    .c{
+        animation: anim3 1s infinite;
+    }
+    .d{
+        animation: anim4 1s infinite;
+    }
+    .e{
+        animation: anim5 1s infinite;
+    }
+    .f{
+        animation: anim6 1s infinite;
+    }
+
+    @keyframes anim1 {
+            
+        from{background-color: yellow;}
+        to{background-color: red;}
+        0% {margin-left: 0px;}
+        50% {margin-left: 400px;}
+        0% {margin-left: 0px;}
+    }
+    @keyframes anim2 {
+      0% {border-radius: 0%;}
+      35% {border-radius: 50%;}
+      65% {margin-left: 400px;}
+      0% {border-radius: 0%;}
+      0% {margin-left: 0px;}
+    }
+
+    @keyframes anim3 {
+        0% {
+            border-radius: 0 0 0 0;
+            background: black;
+            transform: rotate(0deg);
+        }
+        25% {
+            border-radius: 25% 25% 25% 25%;
+            background: white;
+            transform: rotate(45deg);
+        }
+        50% {
+            border-radius: 50% 50% 50% 50%;
+            background: red;
+            transform: rotate(90deg);
+        }
+        75% {
+            border-radius: 75% 75% 75% 75%;
+            background: purple;
+            transform: rotate(180deg);
+        }
+        100% {
+            border-radius: 100% 100% 100% 100%;
+            background: green;
+            transform: rotate(360deg);
+        }
+
+    }
+
+          
+    @keyframes anim4 {
+
+      from{background-color: red;}
+      to{background-color: yellowgreen;}
+      100% {width: 1200px;}
+      80% {width: 800px;}
+      50% {width: 500px;}
+      0% {width: 100px;}
+        
+    }
+    @keyframes anim5 {
+        
+      0%{border-radius: 0px;} 
+      20%{border-radius: 20px;}
+      40%{border-radius: 40px;}
+      70%{border-radius: 70px;}              
+    }
+    
+    @keyframes anim6 {
+
+      0% {margin-left: 0px;}
+      50% {margin-left: 400px;}
+      0% {margin-left: 0px;}
+  
+    }
+
+  </style>
+  </head>
+<body>
+    <div class="a"><h1>1</h1></div>
+    
+    <hr>
+
+    <div class="b"><h1>2</h1></div>
+
+    <hr>
+
+    <div class="c"><h1>3</h1></div>
+
+    <hr>
+
+    <div class="d"><h1>4</h1></div>
+
+    <hr>
+
+    <div class="e"><h1>5</h1></div>
+
+    <hr>
+
+    <div class="f"><h1>6</h1></div>
+</body>
+</html>

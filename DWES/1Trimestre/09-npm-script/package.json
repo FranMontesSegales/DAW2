@@ -1,0 +1,25 @@
+{
+    "type": "module",
+    "name": "09-npm-script",
+    "version": "0.0.0",
+    "description": "",
+    "main": "imprimirFecha.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "date": "node imprimirFecha.js",
+      "crear": "mkdir files",
+      "crear:js": "node crear.js",
+      "crear:carpeta": "cd files && mkdir",
+      "borrar": "rmdir /S files",
+      "borrar:js": "cd files && del files * .js",
+      "imprime:azul": "node azul.js",
+      "imprime:rojo": "node rojo.js",
+      "imprime:verde": "node verde.js"
+    },
+    "author": "Juanma Ramos",
+    "license": "ISC",
+    "dependencies": {
+      "chalk": "^5.1.2",
+      "luxon": "^3.1.0"
+    }
+  }
