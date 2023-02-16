@@ -20,6 +20,7 @@
   "homepage": "https://github.com/FranMontesSegales/DAW2#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^6.9.1",
     "node-fetch": "^3.2.10"
   }
 }
